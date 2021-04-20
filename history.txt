@@ -1,0 +1,13 @@
+
+v1.02:
+
+Added Sound
+Replaced LZO compression of map data with LZ77
+
+v1.01:
+
+Speed Optimizations
+
+v1.0:
+
+Initial Release

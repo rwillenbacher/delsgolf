@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "eng_win32", "eng_win32.vcxproj", "{DAB66DB9-F852-489C-A717-EDB6455C14C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAB66DB9-F852-489C-A717-EDB6455C14C7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DAB66DB9-F852-489C-A717-EDB6455C14C7}.Debug|Win32.Build.0 = Debug|Win32
+		{DAB66DB9-F852-489C-A717-EDB6455C14C7}.Release|Win32.ActiveCfg = Release|Win32
+		{DAB66DB9-F852-489C-A717-EDB6455C14C7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		AMDCaPersistentConfig = Debug|Win32
+		AMDCaPersistentStartup = eng_win32
+		AMDCaProjectFile = C:\cygwin\home\blackjack\workspaces\ticalc\eng_win32\CodeAnalyst\eng_win32.caw
+	EndGlobalSection
+EndGlobal
