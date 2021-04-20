@@ -5,18 +5,18 @@ Delsgolf is a First Person Shooter for the TI-89 Calculator.
 # How to build
 
 Build environment used for development was Windows with Cygwin/GCC. You also need TIGCC for building the calculator assembly application.
-Additional libraries required are libpng and for the editor an older version of gtk.
+Additional libraries required are libpng and for the editor an older version of gtk.  
 
-*Build Texconv*
+*Build Texconv*  
 Go into ./texconv and execute make.sh, copy texconv.exe to ./data.
 
-*Generate the Image Data* 
+*Generate the Image Data*  
 Go into ./data and execute gendata.bat, look for errors, if successful copy texture.h to ./datastore
 
-*Generate the Game Data File*
+*Generate the Game Data File*  
 Go into ./datastore and execute make.sh, execute datastore.exe which will create the game data file in little and big endian (eng_le/be.dat), execute enggendata.bat (requires a TIGCC tool) which will generate the TI-89 game data variable, upload the delsrepo.89y variable to the calculator.
 
-*Building the TI-89 Calculator assembly application*
+*Building the TI-89 Calculator assembly application*  
 Go into ./delsgolf, execute make.sh (requires TIGCC). This will build the calculator executable delsgolf.89z. Upload that to your TI-89 Calculator.
 
 # The Windows Version
@@ -30,16 +30,16 @@ The ./editor directory contains the Map Editor which requires GTK to build. It i
 
 # If you should get it running
 
-Have Fun !
+Have Fun !  
 
-Keys:
-ESC        - Menu
-2nd        - Menu Select / Fire
-Arrow Keys - Movement
-X          - Pistol
-Y          - Rifle
-Z          - Use Button
-
+Keys:  
+ESC        - Menu  
+2nd        - Menu Select / Fire  
+Arrow Keys - Movement  
+X          - Pistol  
+Y          - Rifle  
+Z          - Use Button  
+  
 # If building does not work
 
 You can check [this page](https://www.ticalc.org/archives/files/fileinfo/457/45704.html) for some screenshots and binary downloads.
